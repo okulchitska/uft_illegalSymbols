@@ -1,0 +1,12 @@
+[MAIN]
+FileName1=Welcome__Mercury0.html
+URL1=http://exit1/mtours/servlet/com.mercurytours.servlet.WelcomeServlet
+Total=1
+StaticSave=0
+
+[Browser("Browser").Page("Welcome: Mercury")]
+SourceIndex=-1
+[Viewer]
+PROGID =Mercury.SSHWeb
+[parent]
+parent path=Browser("Browser").Page("Welcome: Mercury")

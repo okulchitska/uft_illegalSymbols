@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Owners>
+  <OwnerId>142</OwnerId>
+  <OwnerType>TEST</OwnerType>
+  <Name><![CDATA[Departing And Arriving Locations]]></Name>
+  <FSPath><![CDATA[Test\Departing And Arriving Locations_142\142\departin]]></FSPath>
+  <QCPath><![CDATA[Subject\Flight Reservation\Book Flight\Departing And Arriving Locations]]></QCPath>
+  <Owner>
+    <OwnerId>142</OwnerId>
+    <OwnerType>TEST</OwnerType>
+    <Name><![CDATA[Departing And Arriving Locations]]></Name>
+    <FSPath><![CDATA[Test\Departing And Arriving Locations_142\142\departin]]></FSPath>
+    <QCPath><![CDATA[Subject\Flight Reservation\Book Flight\Departing And Arriving Locations]]></QCPath>
+    <Relation>
+      <RelatedId>1073</RelatedId>
+      <RelatedType>USER_ASSETS</RelatedType>
+      <Name><![CDATA[Action4]]></Name>
+      <FSPath><![CDATA[Test\Departing And Arriving Locations_142\142\departin]]></FSPath>
+      <QCPath><![CDATA[Subject\Flight Reservation\Book Flight\Departing And Arriving Locations]]></QCPath>
+    </Relation>
+    <Relation>
+      <RelatedId>1024</RelatedId>
+      <RelatedType>RESOURCES</RelatedType>
+      <Name><![CDATA[Get_URL_Module.txt]]></Name>
+      <FSPath><![CDATA[resources\1024]]></FSPath>
+      <QCPath><![CDATA[Resources\BPT Resources\Libraries\Get_URL_Module.txt]]></QCPath>
+      <Condition>NONE</Condition>
+      <Order>9</Order>
+      <FileName>Get_URL_Module.txt</FileName>
+    </Relation>
+    <Relation>
+      <RelatedId>1071</RelatedId>
+      <RelatedType>USER_ASSETS</RelatedType>
+      <Name><![CDATA[Main Test Flow]]></Name>
+      <FSPath><![CDATA[Test\Departing And Arriving Locations_142\142\departin]]></FSPath>
+      <QCPath><![CDATA[Subject\Flight Reservation\Book Flight\Departing And Arriving Locations]]></QCPath>
+    </Relation>
+    <Relation>
+      <RelatedId>1074</RelatedId>
+      <RelatedType>USER_ASSETS</RelatedType>
+      <Name><![CDATA[Action2]]></Name>
+      <FSPath><![CDATA[Test\Departing And Arriving Locations_142\142\departin]]></FSPath>
+      <QCPath><![CDATA[Subject\Flight Reservation\Book Flight\Departing And Arriving Locations]]></QCPath>
+    </Relation>
+    <Relation>
+      <RelatedId>1076</RelatedId>
+      <RelatedType>USER_ASSETS</RelatedType>
+      <Name><![CDATA[Action1]]></Name>
+      <FSPath><![CDATA[Test\Departing And Arriving Locations_142\142\departin]]></FSPath>
+      <QCPath><![CDATA[Subject\Flight Reservation\Book Flight\Departing And Arriving Locations]]></QCPath>
+    </Relation>
+    <Relation>
+      <RelatedId>1072</RelatedId>
+      <RelatedType>USER_ASSETS</RelatedType>
+      <Name><![CDATA[TEST_Data]]></Name>
+      <FSPath><![CDATA[Test\Departing And Arriving Locations_142\142\departin]]></FSPath>
+      <QCPath><![CDATA[Subject\Flight Reservation\Book Flight\Departing And Arriving Locations]]></QCPath>
+    </Relation>
+    <Relation>
+      <RelatedId>1075</RelatedId>
+      <RelatedType>USER_ASSETS</RelatedType>
+      <Name><![CDATA[Action3]]></Name>
+      <FSPath><![CDATA[Test\Departing And Arriving Locations_142\142\departin]]></FSPath>
+      <QCPath><![CDATA[Subject\Flight Reservation\Book Flight\Departing And Arriving Locations]]></QCPath>
+    </Relation>
+  </Owner>
+  <Owner>
+    <OwnerId>1073</OwnerId>
+    <OwnerType>USER_ASSETS</OwnerType>
+    <Name><![CDATA[Action4]]></Name>
+    <FSPath><![CDATA[Test\Departing And Arriving Locations_142\142\departin]]></FSPath>
+    <QCPath><![CDATA[Subject\Flight Reservation\Book Flight\Departing And Arriving Locations]]></QCPath>
+    <Relation>
+      <RelatedId>1072</RelatedId>
+      <RelatedType>USER_ASSETS</RelatedType>
+      <Name><![CDATA[TEST_Data]]></Name>
+      <FSPath><![CDATA[Test\Departing And Arriving Locations_142\142\departin]]></FSPath>
+      <QCPath><![CDATA[Subject\Flight Reservation\Book Flight\Departing And Arriving Locations]]></QCPath>
+      <Condition>NONE</Condition>
+      <Order>1</Order>
+    </Relation>
+  </Owner>
+  <Owner>
+    <OwnerId>1074</OwnerId>
+    <OwnerType>USER_ASSETS</OwnerType>
+    <Name><![CDATA[Action2]]></Name>
+    <FSPath><![CDATA[Test\Departing And Arriving Locations_142\142\departin]]></FSPath>
+    <QCPath><![CDATA[Subject\Flight Reservation\Book Flight\Departing And Arriving Locations]]></QCPath>
+    <Relation>
+      <RelatedId>1072</RelatedId>
+      <RelatedType>USER_ASSETS</RelatedType>
+      <Name><![CDATA[TEST_Data]]></Name>
+      <FSPath><![CDATA[Test\Departing And Arriving Locations_142\142\departin]]></FSPath>
+      <QCPath><![CDATA[Subject\Flight Reservation\Book Flight\Departing And Arriving Locations]]></QCPath>
+      <Condition>NONE</Condition>
+      <Order>2</Order>
+    </Relation>
+  </Owner>
+  <Owner>
+    <OwnerId>1076</OwnerId>
+    <OwnerType>USER_ASSETS</OwnerType>
+    <Name><![CDATA[Action1]]></Name>
+    <FSPath><![CDATA[Test\Departing And Arriving Locations_142\142\departin]]></FSPath>
+    <QCPath><![CDATA[Subject\Flight Reservation\Book Flight\Departing And Arriving Locations]]></QCPath>
+    <Relation>
+      <RelatedId>1072</RelatedId>
+      <RelatedType>USER_ASSETS</RelatedType>
+      <Name><![CDATA[TEST_Data]]></Name>
+      <FSPath><![CDATA[Test\Departing And Arriving Locations_142\142\departin]]></FSPath>
+      <QCPath><![CDATA[Subject\Flight Reservation\Book Flight\Departing And Arriving Locations]]></QCPath>
+      <Condition>NONE</Condition>
+      <Order>4</Order>
+    </Relation>
+  </Owner>
+  <Owner>
+    <OwnerId>1075</OwnerId>
+    <OwnerType>USER_ASSETS</OwnerType>
+    <Name><![CDATA[Action3]]></Name>
+    <FSPath><![CDATA[Test\Departing And Arriving Locations_142\142\departin]]></FSPath>
+    <QCPath><![CDATA[Subject\Flight Reservation\Book Flight\Departing And Arriving Locations]]></QCPath>
+    <Relation>
+      <RelatedId>1072</RelatedId>
+      <RelatedType>USER_ASSETS</RelatedType>
+      <Name><![CDATA[TEST_Data]]></Name>
+      <FSPath><![CDATA[Test\Departing And Arriving Locations_142\142\departin]]></FSPath>
+      <QCPath><![CDATA[Subject\Flight Reservation\Book Flight\Departing And Arriving Locations]]></QCPath>
+      <Condition>NONE</Condition>
+      <Order>3</Order>
+    </Relation>
+  </Owner>
+</Owners>

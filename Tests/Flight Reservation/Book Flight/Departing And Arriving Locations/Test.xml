@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+
+<Component_Root>
+
+<ClsId><![CDATA[{B1E7061C-B028-11D4-8FF3-0050DADE78A5}]]></ClsId>
+
+<Guid><![CDATA[{6C95F10B-10CD-11D6-8FAC-0050DA3ABD92}]]></Guid>
+
+<Name><![CDATA[]]></Name>
+
+<Description><![CDATA[]]></Description>
+
+<IsReusable><![CDATA[0]]></IsReusable>
+
+<ToolName><![CDATA[QuickTest Professional]]></ToolName>
+
+<ToolVersion><![CDATA[5.6]]></ToolVersion>
+
+<SubComponents>
+
+<Component>Action0</Component><Component>Action1</Component><Component>Action2</Component><Component>Action3</Component><Component>Action4</Component><Dependency Scope="0" Type="2"  Kind="4" Logical="">Default.xls</Dependency>
+
+<Dependency Scope="0" Type="2"  Kind="16" Logical="">Test.tsp</Dependency>
+
+<Dependency Scope="0" Type="2"  Kind="4" Logical="">Parameters.mtr</Dependency>
+
+<Dependency Scope="0" Type="1"  Kind="16" Logical="Action0">Action0\Resource.mtr</Dependency>
+
+<Dependency Scope="0" Type="1"  Kind="16" Logical="Action1">Action1\Resource.mtr</Dependency>
+
+<Dependency Scope="0" Type="1"  Kind="16" Logical="Action2">Action2\Resource.mtr</Dependency>
+
+<Dependency Scope="0" Type="2"  Kind="32" Logical="">default.cfg</Dependency>
+
+<Dependency Scope="0" Type="2"  Kind="32" Logical="">My test.usr</Dependency>
+
+<Dependency Scope="0" Type="2"  Kind="32" Logical="">thick_usr.dat</Dependency>
+
+<Dependency Scope="0" Type="2"  Kind="32" Logical="">thin_usr.dat</Dependency>
+
+<Dependency Scope="0" Type="2"  Kind="32" Logical="">default.usp</Dependency>
+
+<Dependency Scope="0" Type="2"  Kind="32" Logical="">default.prm</Dependency>
+
+<Dependency Scope="0" Type="1"  Kind="16" Logical="Action3">Action3\Resource.mtr</Dependency>
+
+<Dependency Scope="0" Type="2"  Kind="32" Logical="">departin.usr</Dependency>
+
+<Dependency Scope="0" Type="1"  Kind="16" Logical="Get URL">Action4\Resource.mtr</Dependency>
+
+<Dependency Scope="0" Type="2"  Kind="32" Logical="">departin.usr</Dependency>
+
+<Dependency Scope="0" Type="2"  Kind="32" Logical="">Get_URL_Module.txt</Dependency>
+
+</SubComponents>
+
+<Component_Gen_Prop>
+
+</Component_Gen_Prop>
+
+</Component_Root>
+

@@ -1,0 +1,8 @@
+[MAIN]
+FileName1=Internet_Explorer5...html
+id=5
+ImageFileName1=Internet_Explorer5..png
+[Viewer]
+PROGID=ViewerGen.SSViewerGen
+[parent]
+parent path=Browser("Find a Flight:")

@@ -1,0 +1,24 @@
+[MAIN]
+FileName1=tripType0.html
+URL1=http://shogo:8080/servlets/com.mercurytours.servlet.ReservationServlet
+Total=1
+StaticSave=0
+
+[Browser("Find a Flight:").Page("Find a Flight:")]
+SourceIndex=-1
+[Viewer]
+PROGID =Mercury.SSHWeb
+[parent]
+parent path=Browser("Find a Flight:").Page("Find a Flight:")
+
+[Browser("Find a Flight:").Page("Find a Flight:").WebRadioGroup("tripType")]
+SourceIndex=140
+OBJECT_name=tripType
+OBJECT_micclass=WebRadioGroup
+OBJECT_html tag=INPUT
+
+[Browser("Find a Flight:").Page("Find a Flight:").WebList("passCount")]
+SourceIndex=148
+OBJECT_name=passCount
+OBJECT_micclass=WebList
+OBJECT_html tag=SELECT

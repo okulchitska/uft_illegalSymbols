@@ -1,0 +1,18 @@
+[MAIN]
+FileName1=fromPort0.html
+URL1=http://shogo:8080/servlets/com.mercurytours.servlet.ReservationServlet
+Total=1
+StaticSave=0
+
+[Browser("Find a Flight:").Page("Find a Flight:")]
+SourceIndex=-1
+[Viewer]
+PROGID =Mercury.SSHWeb
+[parent]
+parent path=Browser("Find a Flight:").Page("Find a Flight:")
+
+[Browser("Find a Flight:").Page("Find a Flight:").WebList("fromPort")]
+SourceIndex=158
+OBJECT_name=fromPort
+OBJECT_micclass=WebList
+OBJECT_html tag=SELECT

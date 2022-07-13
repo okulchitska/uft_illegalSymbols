@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Owners>
+  <OwnerId>145</OwnerId>
+  <OwnerType>TEST</OwnerType>
+  <Name><![CDATA[Trip Type]]></Name>
+  <FSPath><![CDATA[Test\Trip Type_145\145\trip_typ]]></FSPath>
+  <QCPath><![CDATA[Subject\Flight Reservation\Book Flight\Trip Type]]></QCPath>
+  <Owner>
+    <OwnerId>145</OwnerId>
+    <OwnerType>TEST</OwnerType>
+    <Name><![CDATA[Trip Type]]></Name>
+    <FSPath><![CDATA[Test\Trip Type_145\145\trip_typ]]></FSPath>
+    <QCPath><![CDATA[Subject\Flight Reservation\Book Flight\Trip Type]]></QCPath>
+    <Relation>
+      <RelatedId>1088</RelatedId>
+      <RelatedType>USER_ASSETS</RelatedType>
+      <Name><![CDATA[TEST_Data]]></Name>
+      <FSPath><![CDATA[Test\Trip Type_145\145\trip_typ]]></FSPath>
+      <QCPath><![CDATA[Subject\Flight Reservation\Book Flight\Trip Type]]></QCPath>
+    </Relation>
+    <Relation>
+      <RelatedId>1024</RelatedId>
+      <RelatedType>RESOURCES</RelatedType>
+      <Name><![CDATA[Get_URL_Module.txt]]></Name>
+      <FSPath><![CDATA[resources\1024]]></FSPath>
+      <QCPath><![CDATA[Resources\BPT Resources\Libraries\Get_URL_Module.txt]]></QCPath>
+      <Condition>NONE</Condition>
+      <Order>8</Order>
+      <FileName>Get_URL_Module.txt</FileName>
+    </Relation>
+    <Relation>
+      <RelatedId>1089</RelatedId>
+      <RelatedType>USER_ASSETS</RelatedType>
+      <Name><![CDATA[Action2]]></Name>
+      <FSPath><![CDATA[Test\Trip Type_145\145\trip_typ]]></FSPath>
+      <QCPath><![CDATA[Subject\Flight Reservation\Book Flight\Trip Type]]></QCPath>
+    </Relation>
+    <Relation>
+      <RelatedId>1087</RelatedId>
+      <RelatedType>USER_ASSETS</RelatedType>
+      <Name><![CDATA[Main Test Flow]]></Name>
+      <FSPath><![CDATA[Test\Trip Type_145\145\trip_typ]]></FSPath>
+      <QCPath><![CDATA[Subject\Flight Reservation\Book Flight\Trip Type]]></QCPath>
+    </Relation>
+    <Relation>
+      <RelatedId>1090</RelatedId>
+      <RelatedType>USER_ASSETS</RelatedType>
+      <Name><![CDATA[Action1]]></Name>
+      <FSPath><![CDATA[Test\Trip Type_145\145\trip_typ]]></FSPath>
+      <QCPath><![CDATA[Subject\Flight Reservation\Book Flight\Trip Type]]></QCPath>
+    </Relation>
+  </Owner>
+  <Owner>
+    <OwnerId>1089</OwnerId>
+    <OwnerType>USER_ASSETS</OwnerType>
+    <Name><![CDATA[Action2]]></Name>
+    <FSPath><![CDATA[Test\Trip Type_145\145\trip_typ]]></FSPath>
+    <QCPath><![CDATA[Subject\Flight Reservation\Book Flight\Trip Type]]></QCPath>
+    <Relation>
+      <RelatedId>1088</RelatedId>
+      <RelatedType>USER_ASSETS</RelatedType>
+      <Name><![CDATA[TEST_Data]]></Name>
+      <FSPath><![CDATA[Test\Trip Type_145\145\trip_typ]]></FSPath>
+      <QCPath><![CDATA[Subject\Flight Reservation\Book Flight\Trip Type]]></QCPath>
+      <Condition>NONE</Condition>
+      <Order>3</Order>
+    </Relation>
+  </Owner>
+  <Owner>
+    <OwnerId>1087</OwnerId>
+    <OwnerType>USER_ASSETS</OwnerType>
+    <Name><![CDATA[Main Test Flow]]></Name>
+    <FSPath><![CDATA[Test\Trip Type_145\145\trip_typ]]></FSPath>
+    <QCPath><![CDATA[Subject\Flight Reservation\Book Flight\Trip Type]]></QCPath>
+    <Relation>
+      <RelatedId>1083</RelatedId>
+      <RelatedType>USER_ASSETS</RelatedType>
+      <Name><![CDATA[Action4]]></Name>
+      <FSPath><![CDATA[Test\Departing And Arriving Locations_144\144\departin]]></FSPath>
+      <QCPath><![CDATA[Subject\Flight Reservation\Flight Finder\Departing And Arriving Locations]]></QCPath>
+      <Condition>NONE</Condition>
+      <Order>1</Order>
+    </Relation>
+    <Relation>
+      <RelatedId>1086</RelatedId>
+      <RelatedType>USER_ASSETS</RelatedType>
+      <Name><![CDATA[Action1]]></Name>
+      <FSPath><![CDATA[Test\Departing And Arriving Locations_144\144\departin]]></FSPath>
+      <QCPath><![CDATA[Subject\Flight Reservation\Flight Finder\Departing And Arriving Locations]]></QCPath>
+      <Condition>NONE</Condition>
+      <Order>2</Order>
+    </Relation>
+  </Owner>
+  <Owner>
+    <OwnerId>1090</OwnerId>
+    <OwnerType>USER_ASSETS</OwnerType>
+    <Name><![CDATA[Action1]]></Name>
+    <FSPath><![CDATA[Test\Trip Type_145\145\trip_typ]]></FSPath>
+    <QCPath><![CDATA[Subject\Flight Reservation\Book Flight\Trip Type]]></QCPath>
+    <Relation>
+      <RelatedId>1088</RelatedId>
+      <RelatedType>USER_ASSETS</RelatedType>
+      <Name><![CDATA[TEST_Data]]></Name>
+      <FSPath><![CDATA[Test\Trip Type_145\145\trip_typ]]></FSPath>
+      <QCPath><![CDATA[Subject\Flight Reservation\Book Flight\Trip Type]]></QCPath>
+      <Condition>NONE</Condition>
+      <Order>4</Order>
+    </Relation>
+  </Owner>
+  <Owner>
+    <OwnerId>1083</OwnerId>
+    <OwnerType>USER_ASSETS</OwnerType>
+    <Name><![CDATA[Action4]]></Name>
+    <FSPath><![CDATA[Test\Departing And Arriving Locations_144\144\departin]]></FSPath>
+    <QCPath><![CDATA[Subject\Flight Reservation\Flight Finder\Departing And Arriving Locations]]></QCPath>
+    <Relation>
+      <RelatedId>1082</RelatedId>
+      <RelatedType>USER_ASSETS</RelatedType>
+      <Name><![CDATA[TEST_Data]]></Name>
+      <FSPath><![CDATA[Test\Departing And Arriving Locations_144\144\departin]]></FSPath>
+      <QCPath><![CDATA[Subject\Flight Reservation\Flight Finder\Departing And Arriving Locations]]></QCPath>
+      <Condition>NONE</Condition>
+      <Order>1</Order>
+    </Relation>
+  </Owner>
+  <Owner>
+    <OwnerId>1086</OwnerId>
+    <OwnerType>USER_ASSETS</OwnerType>
+    <Name><![CDATA[Action1]]></Name>
+    <FSPath><![CDATA[Test\Departing And Arriving Locations_144\144\departin]]></FSPath>
+    <QCPath><![CDATA[Subject\Flight Reservation\Flight Finder\Departing And Arriving Locations]]></QCPath>
+    <Relation>
+      <RelatedId>1082</RelatedId>
+      <RelatedType>USER_ASSETS</RelatedType>
+      <Name><![CDATA[TEST_Data]]></Name>
+      <FSPath><![CDATA[Test\Departing And Arriving Locations_144\144\departin]]></FSPath>
+      <QCPath><![CDATA[Subject\Flight Reservation\Flight Finder\Departing And Arriving Locations]]></QCPath>
+      <Condition>NONE</Condition>
+      <Order>4</Order>
+    </Relation>
+  </Owner>
+</Owners>

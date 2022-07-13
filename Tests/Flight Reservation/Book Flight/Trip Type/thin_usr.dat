@@ -1,0 +1,38 @@
+[General]
+Type=VB-Web
+RunType=ActiveScript
+DefaultCfg=default.cfg
+ParamRightBrace=}
+ParamLeftBrace={
+NewFunctionHeader=1
+MinorVersion=0
+MajorVersion=6	
+ParameterFile=default.prm
+
+[Actions]
+Get URL [Departing And Arriving Locations]=Action4\Get URL [Departing And Arriving Locations].vbs
+Trip Type=Action2\Trip Type.vbs
+Close Browser=Action1\Close Browser.vbs
+Sign On [Departing And Arriving Locations]=Action1\Sign On [Departing And Arriving Locations].vbs
+
+[VuserProfiles]
+Profiles=Default Profile
+
+[CfgFiles]
+Default Profile=default.cfg
+
+[RunLogicFiles]
+Default Profile=default.usp
+
+[Rendezvous]
+
+[Transactions]
+
+[ActiveScript]
+Lang=VBScript
+
+[ExtraFiles]
+Action4\Get URL [Departing And Arriving Locations].vbs=
+Action2\Trip Type.vbs=
+Action1\Close Browser.vbs=
+Action1\Sign On [Departing And Arriving Locations].vbs=

@@ -1,0 +1,9 @@
+﻿'   This Action logs in to the Mercury Tours site @@ script comments_;_'~_;_
+Browser("Browser").Page("Welcome: Mercury").WebEdit("userName").Set DataTable("Username", dtLocalSheet) @@ hightlight id_;_Browser("Browser").Page("Welcome: Mercury").WebEdit("userName")_;_script comments_;_'~~~_;_script infofile_;_userName0.inf_;_
+Browser("Browser").Page("Welcome: Mercury").WebEdit("password").SetSecure DataTable("Password", dtLocalSheet) @@ hightlight id_;_Browser("Browser").Page("Welcome: Mercury").WebEdit("password")_;_script comments_;_'~~~_;_script infofile_;_password0.inf_;_
+Browser("Browser").Page("Welcome: Mercury").Image("Sign-In").Click 14, 11 @@ hightlight id_;_Browser("Browser").Page("Welcome: Mercury").Image("Sign-In")_;_script comments_;_'~~~_;_script infofile_;_Sign-In0.inf_;_
+OptionalStep.Browser("Browser").Dialog("Internet Explorer").WinButton("&Yes").Click @@ hightlight id_;_2_;_script comments_;_'~~~_;_script infofile_;_Internet_Explorer1.inf_;_
+OptionalStep.Browser("Browser").Dialog("Security Alert").WinButton("&Yes").Click @@ hightlight id_;_2_;_script comments_;_'~~~_;_script infofile_;_Security_Alert2.inf_;_
+OptionalStep.Browser("Browser").Dialog("Internet Explorer").WinButton("&Yes").Click @@ hightlight id_;_5_;_script comments_;_'~~~_;_script infofile_;_Internet_Explorer3.inf_;_
+OptionalStep.Browser("Browser").Dialog("Internet Explorer").WinButton("&Yes").Click @@ script comments_;_'~~~_;_
+Browser("Browser").Page("Find a Flight:").Sync @@ hightlight id_;_Browser("Browser").Page("Find a Flight:")_;_script comments_;_'~~~_;_script infofile_;_Find_a_Flight_0.inf_;_

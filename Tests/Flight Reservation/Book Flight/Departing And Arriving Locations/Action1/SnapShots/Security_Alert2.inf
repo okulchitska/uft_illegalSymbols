@@ -1,0 +1,8 @@
+[MAIN]
+FileName1=Security_Alert2...html
+id=2
+ImageFileName1=Security_Alert2..png
+[Viewer]
+PROGID=ViewerGen.SSViewerGen
+[parent]
+parent path=Browser("Browser")

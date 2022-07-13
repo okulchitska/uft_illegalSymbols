@@ -1,0 +1,12 @@
+[MAIN]
+FileName1=Find_a_Flight_0.html
+URL1=http://shogo:8080/servlets/com.mercurytours.servlet.ReservationServlet
+Total=1
+StaticSave=0
+
+[Browser("Find a Flight:").Page("Find a Flight:")]
+SourceIndex=-1
+[Viewer]
+PROGID =Mercury.SSHWeb
+[parent]
+parent path=Browser("Find a Flight:").Page("Find a Flight:")

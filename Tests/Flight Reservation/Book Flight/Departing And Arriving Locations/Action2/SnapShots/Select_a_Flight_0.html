@@ -1,0 +1,228 @@
+<HTML><HEAD><TITLE>Select a Flight: Mercury Tours</TITLE>
+<SCRIPT language=JavaScript>
+function changeStyle(obj, new_style) {
+obj.className = new_style
+}
+</SCRIPT>
+
+<STYLE type=text/css>
+.menu {
+BACKGROUND-COLOR: white; BORDER-BOTTOM: COLOR: menutext; CURSOR: default; FONT-FAMILY: MS Sans Serif; FONT-SIZE: 10pt; LINE-HEIGHT: 100%; POSITION: absolute; VISIBILITY: hidden
+}
+.visibleMenu {
+BORDER-BOTTOM: COLOR: menutext; CURSOR: default; FONT-FAMILY: MS Sans Serif; FONT-SIZE: 10pt; LINE-HEIGHT: 100%; POSITION: absolute; VISIBILITY: visible
+}
+.menuItem {
+POSITION: relative; COLOR: menutext; TEXT-DECORATION: none
+}
+.menuItemOver {
+POSITION: relative; COLOR: highlighttext; TEXT-DECORATION: none
+}
+.menuItemOver A {
+POSITION: relative; COLOR: highlighttext; CURSOR: default; TEXT-DECORATION: none
+}
+.menuItem A {
+POSITION: relative; COLOR: menutext; CURSOR: default; TEXT-DECORATION: none
+}
+.more {
+FONT-FAMILY: WebDings; POSITION: relative; TEXT-ALIGN: right; Z-INDEX: 100
+}
+.mouseOut {BACKGROUND: orange; FONT-Weight: bold;FONT-FAMILY: Helvetica; FONT-SIZE: 8pt;align="center"}
+.mouseOver {BACKGROUND: "#FFC455"; FONT-Weight: bold;FONT-FAMILY: Helvetica; FONT-SIZE: 8pt; align="center"}
+</STYLE>
+
+<SCRIPT language=JavaScript src="/jscript/CascadeMenu.js"></SCRIPT>
+</HEAD>
+<BODY bgColor=#ffffff link=#000099 onload=initMenu() vLink=#666666>
+<DIV>
+<TABLE border=0 cellPadding=0 cellSpacing=0 height="100%">
+<TBODY>
+<TR>
+<TD bgColor=#003366 vAlign=top>
+<TABLE border=0 cellPadding=0 cellSpacing=0>
+<TBODY>
+<TR>
+<TD bgColor=#003366 vAlign=top halign="center"><!--NAVIGATION BAR REGION START-->
+<TABLE align=center border=0 cellPadding=8 cellSpacing=0 width=110>
+<TBODY>
+<TR vAlign=top>
+<TD>
+<P align=center><IMG alt="Mercury Tours" height=110 src="/images/nav/logo.gif" width=100><BR></P>
+<TABLE align=center border=2 borderColor=#000000 cellPadding=2 cellSpacing=0>
+<TBODY>
+<TR class=mouseOut onmouseout="changeStyle(this, 'mouseOut')" onmouseover="changeStyle(this, 'mouseOver')">
+<TD height=19 width=20></A></TD>
+<TD bgColor=#ffc455 height=19 width=80><FONT color=#000000><A href="com.mercurytours.servlet.WelcomeServlet">Home</A></FONT></TD></TR>
+<TR class=mouseOut onmouseout="changeStyle(this, 'mouseOut')" onmouseover="changeStyle(this, 'mouseOver')">
+<TD height=19 width=20></A></TD>
+<TD bgColor=#ffc455 height=19 width=80><A href="com.mercurytours.servlet.ReservationServlet">Flights</A></TD></TR>
+<TR class=mouseOut onmouseout="changeStyle(this, 'mouseOut')" onmouseover="changeStyle(this, 'mouseOver')">
+<TD height=19 width=20></A></TD>
+<TD bgColor=#ffc455 height=19 width=80><A href="com.mercurytours.servlet.UnderConstServlet">Hotels</A></TD></TR>
+<TR class=mouseOut onmouseout="changeStyle(this, 'mouseOut')" onmouseover="changeStyle(this, 'mouseOver')">
+<TD height=19 width=20></A></TD>
+<TD bgColor=#ffc455 height=19 width=80><FONT color=#000000><A href="com.mercurytours.servlet.UnderConstServlet">Car Rentals</A></FONT></TD></TR>
+<TR class=mouseOut onmouseout="changeStyle(this, 'mouseOut')" onmouseover="changeStyle(this, 'mouseOver')">
+<TD height=19 width=20></A></TD>
+<TD bgColor=#ffc455 height=19 width=80><A href="com.mercurytours.servlet.CruisesServlet" menu="menu1" mainmenu="menu1">Cruises</A></TD></TR>
+<TR class=mouseOut onmouseout="changeStyle(this, 'mouseOut')" onmouseover="changeStyle(this, 'mouseOver')">
+<TD height=19 width=20></A></TD>
+<TD bgColor=#ffc455 height=19 width=80><A href="com.mercurytours.servlet.UnderConstServlet">Destinations</A></TD></TR>
+<TR class=mouseOut onmouseout="changeStyle(this, 'mouseOut')" onmouseover="changeStyle(this, 'mouseOver')">
+<TD height=19 width=20></A></TD>
+<TD bgColor=#ffc455 height=19 width=80><A href="com.mercurytours.servlet.UnderConstServlet">Vacations</A></TD></TR></TBODY></TABLE>
+<P align=center><IMG border=0 height=61 src="/images/nav/html.gif" width=100> <A href="com.mercurytours.servlet.StartServlet"><FONT color=white face="Arial, Helvetica, sans-serif" size=1>Use Java Version</FONT></A></P>
+<P align=center><IMG height=78 src="/images/nav/boxad1.gif" width=88></P></TD></TR></TBODY></TABLE><!--NAVIGATION BAR REGION END--></TD></TR></TBODY></TABLE></TD>
+<TD vAlign=top>
+<TABLE border=0 cellPadding=0 cellSpacing=0>
+<TBODY>
+<TR>
+<TD bgColor=#003366 height=63><!--AD REGION START--><IMG border=0 height=63 hspace=8 src="/images/banner2.gif" vspace=4 width=488> <!--AD REGION END--></TD></TR>
+<TR>
+<TD align=right bgColor=#ff9900 height=16><!--HEADER REGION START-->
+<TABLE border=1 borderColor=#000000 cellPadding=0 cellSpacing=0 <tr>
+<TBODY>
+<TR>
+<TD align=middle class=mouseOut height=33 onmouseout="changeStyle(this, 'mouseOut')" onmouseover="changeStyle(this, 'mouseOver')" width=73><A href="com.mercurytours.servlet.SignonServlet">SIGN-OFF</A></TD>
+<TD align=middle class=mouseOut height=33 onmouseout="changeStyle(this, 'mouseOut')" onmouseover="changeStyle(this, 'mouseOver')" width=78><A href="com.mercurytours.servlet.IteneraryServlet">ITINERARY</A></TD>
+<TD align=middle class=mouseOut height=33 onmouseout="changeStyle(this, 'mouseOut')" onmouseover="changeStyle(this, 'mouseOver')" width=68><A href="com.mercurytours.servlet.RegisterServlet">PROFILE</A></TD>
+<TD align=middle class=mouseOut height=33 onmouseout="changeStyle(this, 'mouseOut')" onmouseover="changeStyle(this, 'mouseOver')" width=73><A href="com.mercurytours.servlet.UnderConstServlet">SUPPORT</A></TD>
+<TD align=middle class=mouseOut height=33 onmouseout="changeStyle(this, 'mouseOut')" onmouseover="changeStyle(this, 'mouseOver')" width=74><A href="com.mercurytours.servlet.UnderConstServlet">CONTACT</A></TD></TR></TBODY></TABLE><!--HEADER REGION END--></TD></TR>
+<TR>
+<TD align=right height=14><!--Space REGION START--><!--Space REGION END--></TD></TR>
+<TR>
+<TD><!--CONTENT REGION START-->
+<TABLE border=0 cellPadding=0 cellSpacing=0>
+<TBODY>
+<TR>
+<TD width=14></TD>
+<TD>
+<TABLE border=0 cellPadding=0 cellSpacing=0 width=492>
+<TBODY>
+<TR>
+<TD><IMG height=30 src="/images/masts/mast_selectflight.gif" width=492></TD></TR>
+<TR>
+<TD><IMG height=10 src="/images/spacer.gif" width=1></TD></TR>
+<TR>
+<TD><FONT face="Arial, Helvetica, sans-serif" size=2>Select your departure and return flight from the selections below. You're fare will be higher than quoted if you elect to fly on a different airline for both legs of your travel.</FONT></TD></TR>
+<TR>
+<TD><IMG height=5 src="/images/spacer.gif" width=1></TD></TR>
+<TR>
+<TD>
+<FORM action=com.mercurytours.servlet.PurchaseServlet method=post name=results>
+<TABLE bgColor=#ffffff border=0 cellPadding=2 cellSpacing=1 width="100%">
+<TBODY>
+<TR>
+<TD colSpan=5 vAlign=top>
+<TABLE border=0 cellPadding=0 cellSpacing=2 width="100%">
+<TBODY>
+<TR>
+<TD align=left class=title vAlign=bottom><FONT face="Arial, Helvetica, sans-serif"><B><FONT color=#ff9900>DEPART</FONT></B></FONT></TD>
+<TD align=right class=title vAlign=bottom>&nbsp;</TD></TR>
+<TR>
+<TD align=left class=title vAlign=bottom><B><FONT color=#333333 face=ARIAL size=2>Frankfurt to London</FONT></B></TD>
+<TD align=right class=title vAlign=bottom><B><FONT color=#333333 face=ARIAL size=2>12/26/2001</FONT></B></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD align=middle bgColor=#cccccc class=frame_header_action noWrap><FONT color=#000000 face=ARIAL size=-2>SELECT</FONT></TD>
+<TD align=middle bgColor=#003399 class=frame_header_info noWrap><FONT color=#ffffff face=ARIAL size=-2>FLIGHT</FONT></TD>
+<TD align=middle bgColor=#003399 class=frame_header_info noWrap><FONT color=#ffffff face=ARIAL size=-2>DEPART</FONT></TD>
+<TD align=middle bgColor=#003399 class=frame_header_info noWrap><FONT color=#ffffff face=ARIAL size=-2>STOPS</FONT></TD></TR>
+<TR>
+<TD align=middle bgColor=#ffcc00 class=frame_action_xrows rowSpan=2 vAlign=center><INPUT CHECKED name=outFlight type=radio value="Blue Skies Airlines$200$244$5:03 pm$"> </TD>
+<TD align=left bgColor=#cccccc class=data_left><FONT face=ARIAL size=-1><B>Blue Skies Airlines 200</FONT></B></TD>
+<TD align=middle bgColor=#cccccc class=data_center_mono vAlign=top><FONT face=ARIAL size=-1>5:03 pm</FONT><BR></TD>
+<TD align=middle bgColor=#cccccc class=data_center noWrap><FONT face=ARIAL size=-1>non-stop</FONT></TD><!--<TD class=data_center ALIGN=CENTER BGCOLOR=CCCCCC NOWRAP><FONT SIZE=-1 FACE=ARIAL>&nbsp</FONT></TD>--><!--<TD class=data_right  ALIGN=RIGHT BGCOLOR=CCCCCC NOWRAP><FONT SIZE=-1 FACE=ARIAL>&nbsp</FONT></TD>--></TR>
+<TR>
+<TD bgColor=#ffffff class=data_verb_xcols colSpan=4 vAlign=top><FONT size=-1><FONT color=#333333 face=arial><B>Cost: $244</B> (based on round trip)</FONT></FONT></TD></TR>
+<TR>
+<TD align=middle bgColor=#ffcc00 class=frame_action_xrows rowSpan=2 vAlign=center><INPUT name=outFlight type=radio value="Blue Skies Airlines$201$249$7:09 pm$"> </TD>
+<TD align=left bgColor=#cccccc class=data_left><FONT face=ARIAL size=-1><B>Blue Skies Airlines 201</FONT></B></TD>
+<TD align=middle bgColor=#cccccc class=data_center_mono vAlign=top><FONT face=ARIAL size=-1>7:09 pm</FONT><BR></TD>
+<TD align=middle bgColor=#cccccc class=data_center noWrap><FONT face=ARIAL size=-1>non-stop</FONT></TD><!--<TD class=data_center ALIGN=CENTER BGCOLOR=CCCCCC NOWRAP><FONT SIZE=-1 FACE=ARIAL>&nbsp</FONT></TD>--><!--<TD class=data_right  ALIGN=RIGHT BGCOLOR=CCCCCC NOWRAP><FONT SIZE=-1 FACE=ARIAL>&nbsp</FONT></TD>--></TR>
+<TR>
+<TD bgColor=#ffffff class=data_verb_xcols colSpan=4 vAlign=top><FONT size=-1><FONT color=#333333 face=arial><B>Cost: $249</B> (based on round trip)</FONT></FONT></TD></TR>
+<TR>
+<TD align=middle bgColor=#ffcc00 class=frame_action_xrows rowSpan=2 vAlign=center><INPUT name=outFlight type=radio value="Pangea Airlines$202$260$9:15 pm$"> </TD>
+<TD align=left bgColor=#cccccc class=data_left><FONT face=ARIAL size=-1><B>Pangea Airlines 202</FONT></B></TD>
+<TD align=middle bgColor=#cccccc class=data_center_mono vAlign=top><FONT face=ARIAL size=-1>9:15 pm</FONT><BR></TD>
+<TD align=middle bgColor=#cccccc class=data_center noWrap><FONT face=ARIAL size=-1>non-stop</FONT></TD><!--<TD class=data_center ALIGN=CENTER BGCOLOR=CCCCCC NOWRAP><FONT SIZE=-1 FACE=ARIAL>&nbsp</FONT></TD>--><!--<TD class=data_right  ALIGN=RIGHT BGCOLOR=CCCCCC NOWRAP><FONT SIZE=-1 FACE=ARIAL>&nbsp</FONT></TD>--></TR>
+<TR>
+<TD bgColor=#ffffff class=data_verb_xcols colSpan=4 vAlign=top><FONT size=-1><FONT color=#333333 face=arial><B>Cost: $260</B> (based on round trip)</FONT></FONT></TD></TR>
+<TR>
+<TD align=middle bgColor=#ffcc00 class=frame_action_xrows rowSpan=2 vAlign=center><INPUT name=outFlight type=radio value="Unified Airlines$203$283$11:21 pm$"> </TD>
+<TD align=left bgColor=#cccccc class=data_left><FONT face=ARIAL size=-1><B>Unified Airlines 203</FONT></B></TD>
+<TD align=middle bgColor=#cccccc class=data_center_mono vAlign=top><FONT face=ARIAL size=-1>11:21 pm</FONT><BR></TD>
+<TD align=middle bgColor=#cccccc class=data_center noWrap><FONT face=ARIAL size=-1>non-stop</FONT></TD><!--<TD class=data_center ALIGN=CENTER BGCOLOR=CCCCCC NOWRAP><FONT SIZE=-1 FACE=ARIAL>&nbsp</FONT></TD>--><!--<TD class=data_right  ALIGN=RIGHT BGCOLOR=CCCCCC NOWRAP><FONT SIZE=-1 FACE=ARIAL>&nbsp</FONT></TD>--></TR>
+<TR>
+<TD bgColor=#ffffff class=data_verb_xcols colSpan=4 vAlign=top><FONT size=-1><FONT color=#333333 face=arial><B>Cost: $283</B> (based on round trip)</FONT></FONT></TD></TR></TBODY></TABLE>
+<TABLE bgColor=#ffffff border=0 cellPadding=2 cellSpacing=1 width="100%">
+<TBODY>
+<TR>
+<TD colSpan=5 vAlign=top>
+<TABLE border=0 cellPadding=0 cellSpacing=2 width="100%">
+<TBODY>
+<TR>
+<TD align=left class=title vAlign=bottom><FONT face="Arial, Helvetica, sans-serif"><B><FONT color=#ff9900>RETURN</FONT></B></FONT></TD>
+<TD align=right class=title vAlign=bottom>&nbsp;</TD></TR>
+<TR>
+<TD align=left class=title vAlign=bottom><B><FONT color=#333333 face=ARIAL size=2>London to Frankfurt</FONT></B></TD>
+<TD align=right class=title vAlign=bottom><B><FONT color=#333333 face=ARIAL size=2>12/27/2001</FONT></B></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD align=middle bgColor=#cccccc class=frame_header_action noWrap><FONT color=#000000 face=ARIAL size=-2>SELECT</FONT></TD>
+<TD align=middle bgColor=#003399 class=frame_header_info noWrap><FONT color=#ffffff face=ARIAL size=-2>FLIGHT</FONT></TD>
+<TD align=middle bgColor=#003399 class=frame_header_info noWrap><FONT color=#ffffff face=ARIAL size=-2>DEPART</FONT></TD>
+<TD align=middle bgColor=#003399 class=frame_header_info noWrap><FONT color=#ffffff face=ARIAL size=-2>STOPS</FONT></TD></TR>
+<TR>
+<TD align=middle bgColor=#ffcc00 class=frame_action_xrows rowSpan=2 vAlign=center><INPUT CHECKED name=inFlight type=radio value="Blue Skies Airlines$20$244$12:23 pm$"> </TD>
+<TD align=left bgColor=#cccccc class=data_left><FONT face=ARIAL size=-1><B>Blue Skies Airlines 20</FONT></B></TD>
+<TD align=middle bgColor=#cccccc class=data_center_mono vAlign=top><FONT face=ARIAL size=-1>12:23 pm</FONT><BR></TD>
+<TD align=middle bgColor=#cccccc class=data_center noWrap><FONT face=ARIAL size=-1>non-stop</FONT></TD><!--<TD class=data_center ALIGN=CENTER BGCOLOR=CCCCCC NOWRAP><FONT SIZE=-1 FACE=ARIAL>&nbsp</FONT></TD>--><!--<TD class=data_right  ALIGN=RIGHT BGCOLOR=CCCCCC NOWRAP><FONT SIZE=-1 FACE=ARIAL>&nbsp</FONT></TD>--></TR>
+<TR>
+<TD bgColor=#ffffff class=data_verb_xcols colSpan=4 vAlign=top><FONT size=-1><FONT color=#333333 face=arial><B>Cost: $244</B> (based on round trip)</FONT></FONT></TD></TR>
+<TR>
+<TD align=middle bgColor=#ffcc00 class=frame_action_xrows rowSpan=2 vAlign=center><INPUT name=inFlight type=radio value="Blue Skies Airlines$21$251$14:29 pm$"> </TD>
+<TD align=left bgColor=#cccccc class=data_left><FONT face=ARIAL size=-1><B>Blue Skies Airlines 21</FONT></B></TD>
+<TD align=middle bgColor=#cccccc class=data_center_mono vAlign=top><FONT face=ARIAL size=-1>14:29 pm</FONT><BR></TD>
+<TD align=middle bgColor=#cccccc class=data_center noWrap><FONT face=ARIAL size=-1>non-stop</FONT></TD><!--<TD class=data_center ALIGN=CENTER BGCOLOR=CCCCCC NOWRAP><FONT SIZE=-1 FACE=ARIAL>&nbsp</FONT></TD>--><!--<TD class=data_right  ALIGN=RIGHT BGCOLOR=CCCCCC NOWRAP><FONT SIZE=-1 FACE=ARIAL>&nbsp</FONT></TD>--></TR>
+<TR>
+<TD bgColor=#ffffff class=data_verb_xcols colSpan=4 vAlign=top><FONT size=-1><FONT color=#333333 face=arial><B>Cost: $251</B> (based on round trip)</FONT></FONT></TD></TR>
+<TR>
+<TD align=middle bgColor=#ffcc00 class=frame_action_xrows rowSpan=2 vAlign=center><INPUT name=inFlight type=radio value="Pangea Airlines$22$268$16:35 pm$"> </TD>
+<TD align=left bgColor=#cccccc class=data_left><FONT face=ARIAL size=-1><B>Pangea Airlines 22</FONT></B></TD>
+<TD align=middle bgColor=#cccccc class=data_center_mono vAlign=top><FONT face=ARIAL size=-1>16:35 pm</FONT><BR></TD>
+<TD align=middle bgColor=#cccccc class=data_center noWrap><FONT face=ARIAL size=-1>non-stop</FONT></TD><!--<TD class=data_center ALIGN=CENTER BGCOLOR=CCCCCC NOWRAP><FONT SIZE=-1 FACE=ARIAL>&nbsp</FONT></TD>--><!--<TD class=data_right  ALIGN=RIGHT BGCOLOR=CCCCCC NOWRAP><FONT SIZE=-1 FACE=ARIAL>&nbsp</FONT></TD>--></TR>
+<TR>
+<TD bgColor=#ffffff class=data_verb_xcols colSpan=4 vAlign=top><FONT size=-1><FONT color=#333333 face=arial><B>Cost: $268</B> (based on round trip)</FONT></FONT></TD></TR>
+<TR>
+<TD align=middle bgColor=#ffcc00 class=frame_action_xrows rowSpan=2 vAlign=center><INPUT name=inFlight type=radio value="Unified Airlines$23$305$18:41 pm$"> </TD>
+<TD align=left bgColor=#cccccc class=data_left><FONT face=ARIAL size=-1><B>Unified Airlines 23</FONT></B></TD>
+<TD align=middle bgColor=#cccccc class=data_center_mono vAlign=top><FONT face=ARIAL size=-1>18:41 pm</FONT><BR></TD>
+<TD align=middle bgColor=#cccccc class=data_center noWrap><FONT face=ARIAL size=-1>non-stop</FONT></TD><!--<TD class=data_center ALIGN=CENTER BGCOLOR=CCCCCC NOWRAP><FONT SIZE=-1 FACE=ARIAL>&nbsp</FONT></TD>--><!--<TD class=data_right  ALIGN=RIGHT BGCOLOR=CCCCCC NOWRAP><FONT SIZE=-1 FACE=ARIAL>&nbsp</FONT></TD>--></TR>
+<TR>
+<TD bgColor=#ffffff class=data_verb_xcols colSpan=4 vAlign=top><FONT size=-1><FONT color=#333333 face=arial><B>Cost: $305</B> (based on round trip)</FONT></FONT></TD></TR></TBODY></TABLE>
+<P align=center>&nbsp;&nbsp; <INPUT border=0 cache height=23 name=reserveFlights src="/images/forms/continue.gif" type=image width=104></P></FORM></TD></TR></TBODY></TABLE>
+<SCRIPT language=JavaScript>
+function generate_http_requets()
+{
+	var myImage = new Image();
+	for (var i = 1; i <= 100; i++) {
+		myImage.src = "Banner1.gif?number=" + i;
+		document.write("<img src=" + myImage.src + " width=\"0\" height=\"0\" alt=\"Mercury Tours\"><br>");
+	}
+}
+ generate_http_requets();
+</SCRIPT>
+<IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=1" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=2" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=3" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=4" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=5" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=6" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=7" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=8" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=9" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=10" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=11" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=12" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=13" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=14" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=15" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=16" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=17" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=18" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=19" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=20" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=21" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=22" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=23" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=24" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=25" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=26" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=27" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=28" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=29" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=30" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=31" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=32" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=33" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=34" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=35" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=36" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=37" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=38" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=39" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=40" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=41" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=42" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=43" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=44" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=45" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=46" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=47" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=48" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=49" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=50" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=51" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=52" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=53" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=54" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=55" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=56" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=57" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=58" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=59" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=60" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=61" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=62" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=63" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=64" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=65" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=66" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=67" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=68" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=69" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=70" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=71" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=72" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=73" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=74" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=75" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=76" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=77" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=78" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=79" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=80" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=81" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=82" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=83" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=84" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=85" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=86" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=87" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=88" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=89" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=90" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=91" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=92" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=93" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=94" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=95" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=96" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=97" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=98" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=99" width=0><BR><IMG alt="Mercury Tours" height=0 src="http://shogo:8080/servlets/Banner1.gif?number=100" width=0><BR></TD></TR></TBODY></TABLE><!--CONTENT REGION END--></TD></TR>
+<TR>
+<TD><!--FOOTER REGION START--><!--FOOTER REGION START-->
+<DIV class=footer>© 2000, Mercury Interactive (v. 011003-1.01-057) </DIV><!--FOOTER REGION END--><!--FOOTER REGION END--></TD></TR></TD></TR></TBODY></TABLE></TR></TBODY></TABLE></DIV>
+<DIV id=menuContainer>
+<DIV class=menu id=menu1>
+<DIV class=menuItem id=subMenu1_1><A href="com.mercurytours.servlet.ReservationServlet"><IMG src="/images/caribbean_menu.gif"> </A></DIV>
+<DIV class=menu id=menu1_1>
+<DIV class=menuItem id=menuItem1_1_1><A href="com.mercurytours.servlet.CruisesServlet?dest=caribbean&amp;user=member"><IMG src="/images/member_menu.gif"> </A></DIV>
+<DIV class=menuItem id=menuItem1_1_2><A href="com.mercurytours.servlet.CruisesServlet?dest=caribbean&amp;user=guest"><IMG src="/images/guest_menu.gif"> </A></DIV></DIV>
+<DIV class=menuItem id=subMenu1_2><A href="com.mercurytours.servlet.ReservationServlet"><IMG src="/images/alaska_menu.gif"> </A></DIV>
+<DIV class=menu id=menu1_2>
+<DIV class=menuItem id=menuItem1_2_1><A href="com.mercurytours.servlet.CruisesServlet?dest=alaska&amp;user=member" ?><IMG src="/images/member_menu.gif"> </A></DIV>
+<DIV class=menuItem id=menuItem1_2_2><A href="com.mercurytours.servlet.CruisesServlet?dest=alaska&amp;user=guest" ?><IMG src="/images/guest_menu.gif"> </A></DIV></DIV></DIV></DIV></BODY></HTML>

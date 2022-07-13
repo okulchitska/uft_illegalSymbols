@@ -1,0 +1,60 @@
+[General]
+Type=Tulip
+RunType=ActiveScript
+DefaultCfg=default.cfg
+ParamRightBrace=>
+ParamLeftBrace=<
+NewFunctionHeader=1
+MinorVersion=0
+MajorVersion=6	
+ParameterFile=default.prm
+
+[Actions]
+Get URL=Action4\Script.mts
+Departing and Arriving Locations=Action2\Script.mts
+Close Browser=Action3\Script.mts
+Sign On=Action1\Script.mts
+
+[VuserProfiles]
+Profiles=Default Profile
+
+[CfgFiles]
+Default Profile=default.cfg
+
+[RunLogicFiles]
+Default Profile=default.usp
+
+[Rendezvous]
+
+[Transactions]
+
+[ActiveScript]
+Lang=none
+
+[TulipInfo]
+ProductName=QuickTest Professional
+Version=5.6
+
+[TulipAddins]
+ActiveX=
+DataBase=
+Java=
+Multimedia=
+StdWindows=
+VisualBasic=
+Web=
+
+[ExtraFiles]
+Test.tsp=
+Default.xls=
+Parameters.mtr=
+Action0\Script.mts=
+Action0\Resource.mtr=
+Action4\Script.mts=
+Action4\Resource.mtr=
+Action2\Script.mts=
+Action2\Resource.mtr=
+Action3\Script.mts=
+Action3\Resource.mtr=
+Action1\Script.mts=
+Action1\Resource.mtr=

@@ -1,0 +1,12 @@
+[MAIN]
+FileName1=Page0.html
+URL1=about:blank
+Total=1
+StaticSave=0
+
+[Browser("Browser").Page("Page")]
+SourceIndex=-1
+[Viewer]
+PROGID =Mercury.SSHWeb
+[parent]
+parent path=Browser("Browser").Page("Page")

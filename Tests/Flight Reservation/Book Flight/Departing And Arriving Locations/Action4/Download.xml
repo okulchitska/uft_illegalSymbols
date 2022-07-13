@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Owners>
+  <OwnerId>143</OwnerId>
+  <OwnerType>TEST</OwnerType>
+  <Name><![CDATA[Number Of Passengers]]></Name>
+  <FSPath><![CDATA[Test\Number Of Passengers_143\143\number_o]]></FSPath>
+  <QCPath><![CDATA[Subject\Flight Reservation\Flight Finder\Number Of Passengers]]></QCPath>
+  <Owner>
+    <OwnerId>143</OwnerId>
+    <OwnerType>TEST</OwnerType>
+    <Name><![CDATA[Number Of Passengers]]></Name>
+    <FSPath><![CDATA[Test\Number Of Passengers_143\143\number_o]]></FSPath>
+    <QCPath><![CDATA[Subject\Flight Reservation\Flight Finder\Number Of Passengers]]></QCPath>
+    <Relation>
+      <RelatedId>1024</RelatedId>
+      <RelatedType>RESOURCES</RelatedType>
+      <Name><![CDATA[Get_URL_Module.txt]]></Name>
+      <FSPath><![CDATA[resources\1024]]></FSPath>
+      <QCPath><![CDATA[Resources\BPT Resources\Libraries\Get_URL_Module.txt]]></QCPath>
+      <Condition>NONE</Condition>
+      <Order>7</Order>
+      <FileName>Get_URL_Module.txt</FileName>
+    </Relation>
+    <Relation>
+      <RelatedId>1080</RelatedId>
+      <RelatedType>USER_ASSETS</RelatedType>
+      <Name><![CDATA[Action3]]></Name>
+      <FSPath><![CDATA[Test\Number Of Passengers_143\143\number_o]]></FSPath>
+      <QCPath><![CDATA[Subject\Flight Reservation\Flight Finder\Number Of Passengers]]></QCPath>
+    </Relation>
+    <Relation>
+      <RelatedId>1078</RelatedId>
+      <RelatedType>USER_ASSETS</RelatedType>
+      <Name><![CDATA[TEST_Data]]></Name>
+      <FSPath><![CDATA[Test\Number Of Passengers_143\143\number_o]]></FSPath>
+      <QCPath><![CDATA[Subject\Flight Reservation\Flight Finder\Number Of Passengers]]></QCPath>
+    </Relation>
+    <Relation>
+      <RelatedId>1077</RelatedId>
+      <RelatedType>USER_ASSETS</RelatedType>
+      <Name><![CDATA[Main Test Flow]]></Name>
+      <FSPath><![CDATA[Test\Number Of Passengers_143\143\number_o]]></FSPath>
+      <QCPath><![CDATA[Subject\Flight Reservation\Flight Finder\Number Of Passengers]]></QCPath>
+    </Relation>
+    <Relation>
+      <RelatedId>1079</RelatedId>
+      <RelatedType>USER_ASSETS</RelatedType>
+      <Name><![CDATA[Action2]]></Name>
+      <FSPath><![CDATA[Test\Number Of Passengers_143\143\number_o]]></FSPath>
+      <QCPath><![CDATA[Subject\Flight Reservation\Flight Finder\Number Of Passengers]]></QCPath>
+    </Relation>
+  </Owner>
+  <Owner>
+    <OwnerId>1080</OwnerId>
+    <OwnerType>USER_ASSETS</OwnerType>
+    <Name><![CDATA[Action3]]></Name>
+    <FSPath><![CDATA[Test\Number Of Passengers_143\143\number_o]]></FSPath>
+    <QCPath><![CDATA[Subject\Flight Reservation\Flight Finder\Number Of Passengers]]></QCPath>
+    <Relation>
+      <RelatedId>1078</RelatedId>
+      <RelatedType>USER_ASSETS</RelatedType>
+      <Name><![CDATA[TEST_Data]]></Name>
+      <FSPath><![CDATA[Test\Number Of Passengers_143\143\number_o]]></FSPath>
+      <QCPath><![CDATA[Subject\Flight Reservation\Flight Finder\Number Of Passengers]]></QCPath>
+      <Condition>NONE</Condition>
+      <Order>4</Order>
+    </Relation>
+  </Owner>
+  <Owner>
+    <OwnerId>1077</OwnerId>
+    <OwnerType>USER_ASSETS</OwnerType>
+    <Name><![CDATA[Main Test Flow]]></Name>
+    <FSPath><![CDATA[Test\Number Of Passengers_143\143\number_o]]></FSPath>
+    <QCPath><![CDATA[Subject\Flight Reservation\Flight Finder\Number Of Passengers]]></QCPath>
+    <Relation>
+      <RelatedId>1083</RelatedId>
+      <RelatedType>USER_ASSETS</RelatedType>
+      <Name><![CDATA[Action4]]></Name>
+      <FSPath><![CDATA[Test\Departing And Arriving Locations_144\144\departin]]></FSPath>
+      <QCPath><![CDATA[Subject\Flight Reservation\Flight Finder\Departing And Arriving Locations]]></QCPath>
+      <Condition>NONE</Condition>
+      <Order>1</Order>
+    </Relation>
+    <Relation>
+      <RelatedId>1086</RelatedId>
+      <RelatedType>USER_ASSETS</RelatedType>
+      <Name><![CDATA[Action1]]></Name>
+      <FSPath><![CDATA[Test\Departing And Arriving Locations_144\144\departin]]></FSPath>
+      <QCPath><![CDATA[Subject\Flight Reservation\Flight Finder\Departing And Arriving Locations]]></QCPath>
+      <Condition>NONE</Condition>
+      <Order>2</Order>
+    </Relation>
+  </Owner>
+  <Owner>
+    <OwnerId>1079</OwnerId>
+    <OwnerType>USER_ASSETS</OwnerType>
+    <Name><![CDATA[Action2]]></Name>
+    <FSPath><![CDATA[Test\Number Of Passengers_143\143\number_o]]></FSPath>
+    <QCPath><![CDATA[Subject\Flight Reservation\Flight Finder\Number Of Passengers]]></QCPath>
+    <Relation>
+      <RelatedId>1078</RelatedId>
+      <RelatedType>USER_ASSETS</RelatedType>
+      <Name><![CDATA[TEST_Data]]></Name>
+      <FSPath><![CDATA[Test\Number Of Passengers_143\143\number_o]]></FSPath>
+      <QCPath><![CDATA[Subject\Flight Reservation\Flight Finder\Number Of Passengers]]></QCPath>
+      <Condition>NONE</Condition>
+      <Order>3</Order>
+    </Relation>
+  </Owner>
+  <Owner>
+    <OwnerId>1083</OwnerId>
+    <OwnerType>USER_ASSETS</OwnerType>
+    <Name><![CDATA[Action4]]></Name>
+    <FSPath><![CDATA[Test\Departing And Arriving Locations_144\144\departin]]></FSPath>
+    <QCPath><![CDATA[Subject\Flight Reservation\Flight Finder\Departing And Arriving Locations]]></QCPath>
+    <Relation>
+      <RelatedId>1082</RelatedId>
+      <RelatedType>USER_ASSETS</RelatedType>
+      <Name><![CDATA[TEST_Data]]></Name>
+      <FSPath><![CDATA[Test\Departing And Arriving Locations_144\144\departin]]></FSPath>
+      <QCPath><![CDATA[Subject\Flight Reservation\Flight Finder\Departing And Arriving Locations]]></QCPath>
+      <Condition>NONE</Condition>
+      <Order>1</Order>
+    </Relation>
+  </Owner>
+  <Owner>
+    <OwnerId>1086</OwnerId>
+    <OwnerType>USER_ASSETS</OwnerType>
+    <Name><![CDATA[Action1]]></Name>
+    <FSPath><![CDATA[Test\Departing And Arriving Locations_144\144\departin]]></FSPath>
+    <QCPath><![CDATA[Subject\Flight Reservation\Flight Finder\Departing And Arriving Locations]]></QCPath>
+    <Relation>
+      <RelatedId>1082</RelatedId>
+      <RelatedType>USER_ASSETS</RelatedType>
+      <Name><![CDATA[TEST_Data]]></Name>
+      <FSPath><![CDATA[Test\Departing And Arriving Locations_144\144\departin]]></FSPath>
+      <QCPath><![CDATA[Subject\Flight Reservation\Flight Finder\Departing And Arriving Locations]]></QCPath>
+      <Condition>NONE</Condition>
+      <Order>4</Order>
+    </Relation>
+  </Owner>
+</Owners>
